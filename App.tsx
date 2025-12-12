@@ -38,10 +38,12 @@ const LandingNav: React.FC<{ onStart: () => void }> = ({ onStart }) => {
             <div className="max-w-7xl mx-auto px-4 md:px-8 h-full flex items-center justify-between">
                 {/* Logo */}
                 <div className="flex items-center gap-2 md:gap-3 cursor-pointer group">
-                    <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-black dark:bg-white flex items-center justify-center text-white dark:text-black">
-                         <Brain size={18} className="md:w-5 md:h-5" />
-                    </div>
-                    <span className="font-bold text-lg md:text-2xl tracking-tight text-gray-900 dark:text-white">StudySim</span>
+                    <img 
+                        src="https://international-plum-dbukrtrm6a-k7veuco1n2.edgeone.dev/flat_vector_logo_design_a_stylized_digital%20(1).jpeg"
+                        alt="Logo"
+                        className="w-8 h-8 md:w-10 md:h-10 rounded-full object-cover border border-gray-200 dark:border-white/10"
+                    />
+                    <span className="font-bold text-lg md:text-2xl tracking-tight text-gray-900 dark:text-white">StudySim AI</span>
                 </div>
 
                 {/* Center Links */}
@@ -134,7 +136,7 @@ const Hero: React.FC<{ onStart: () => void }> = ({ onStart }) => {
                                 <div className="w-3 h-3 rounded-full bg-red-500/80"></div>
                                 <div className="w-3 h-3 rounded-full bg-yellow-500/80"></div>
                                 <div className="w-3 h-3 rounded-full bg-green-500/80"></div>
-                                <div className="ml-4 px-3 py-1 bg-gray-200 dark:bg-white/10 rounded-md text-[10px] font-mono text-gray-500">studysim.app</div>
+                                <div className="ml-4 px-3 py-1 bg-gray-200 dark:bg-white/10 rounded-md text-[10px] font-mono text-gray-500">studysim.ai</div>
                             </div>
 
                             {/* Mock Interface */}
@@ -570,7 +572,7 @@ const ControlDemo: React.FC = () => {
                              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 animate-gradient-x">Control it.</span>
                          </h2>
                          <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                             Why memorize a formula when you can adjust the variables and see the results? StudySim generates physics-accurate environments in seconds.
+                             Why memorize a formula when you can adjust the variables and see the results? StudySim AI generates physics-accurate environments in seconds.
                          </p>
                          <button className="bg-black text-white dark:bg-white dark:text-black px-8 py-4 rounded-full font-bold text-lg hover:opacity-80 transition-all inline-flex items-center gap-2 transform hover:scale-105 duration-300 shadow-lg">
                              Interactive Demo <ArrowRight size={20} />
@@ -587,7 +589,7 @@ const ControlDemo: React.FC = () => {
                                  <div className="w-3 h-3 rounded-full bg-[#ffbd2e] shadow-sm"></div>
                                  <div className="w-3 h-3 rounded-full bg-[#27c93f] shadow-sm"></div>
                                  <div className="ml-2 px-2 py-0.5 rounded bg-white/50 dark:bg-white/10 text-[10px] text-gray-500 dark:text-gray-400 font-mono">
-                                     sim_engine.html
+                                     studysim.ai
                                  </div>
                              </div>
                              
@@ -662,7 +664,7 @@ const FAQ: React.FC = () => {
     const faqs = [
         {
             question: "How does the simulator work?",
-            answer: "StudySim uses Gemini 2.5 Flash and Pro models to analyze the physics and logic of your topic (e.g., 'Projectile Motion'). It then writes a custom, single-file HTML5/Canvas application from scratch that runs directly in your browser, complete with sliders and interactive elements."
+            answer: "StudySim AI uses Gemini 2.5 Flash and Pro models to analyze the physics and logic of your topic (e.g., 'Projectile Motion'). It then writes a custom, single-file HTML5/Canvas application from scratch that runs directly in your browser, complete with sliders and interactive elements."
         },
         {
             question: "What kind of files can I upload?",
@@ -670,10 +672,10 @@ const FAQ: React.FC = () => {
         },
         {
             question: "Is this better than standard ChatGPT or Gemini?",
-            answer: "Standard chatbots are great for conversation, but StudySim is an Architect. We use a specialized multi-step pipeline (Research -> Plan -> Draft -> Code) designed specifically for education. This reduces errors and creates structured, deep content rather than generic summaries."
+            answer: "Standard chatbots are great for conversation, but StudySim AI is an Architect. We use a specialized multi-step pipeline (Research -> Plan -> Draft -> Code) designed specifically for education. This reduces errors and creates structured, deep content rather than generic summaries."
         },
         {
-            question: "Can I use StudySim on my phone?",
+            question: "Can I use StudySim AI on my phone?",
             answer: "Absolutely. The entire platform, including the generated interactive simulations, is fully responsive and touch-friendly, so you can study on the go."
         },
         {
@@ -828,10 +830,12 @@ const AppNavbar: React.FC<{ mode: AppMode, setMode: (m: AppMode) => void }> = ({
             <div className="bg-surface border border-border rounded-full p-1.5 flex items-center shadow-terminal relative transition-colors duration-300 max-w-full overflow-x-auto scrollbar-hide">
                 {/* Logo Section */}
                 <div className="flex items-center gap-2 pl-3 md:pl-4 pr-3 md:pr-6 border-r border-border mr-1 md:mr-2 flex-shrink-0">
-                    <div className="w-6 h-6 rounded-full border border-gray-500 flex items-center justify-center">
-                        <Command size={12} className="text-gray-900 dark:text-white"/>
-                    </div>
-                    <span className="text-gray-900 dark:text-white font-bold text-sm tracking-tight hidden sm:inline">StudySim</span>
+                    <img 
+                        src="https://international-plum-dbukrtrm6a-k7veuco1n2.edgeone.dev/flat_vector_logo_design_a_stylized_digital%20(1).jpeg"
+                        alt="Logo"
+                        className="w-6 h-6 rounded-full border border-gray-500 object-cover"
+                    />
+                    <span className="text-gray-900 dark:text-white font-bold text-sm tracking-tight hidden sm:inline">StudySim AI</span>
                 </div>
 
                 {/* Nav Pills */}
