@@ -1096,3 +1096,4 @@ const StudyArchitect: React.FC = () => {
 };
 
 export default StudyArchitect;
+    
