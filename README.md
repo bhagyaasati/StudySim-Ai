@@ -1,8 +1,8 @@
 <div align="center">
   <br />
-  <div style="display: flex; justify-content: center; align-items: center; gap: 12px;">
-    <img src="https://private-user-images.githubusercontent.com/247419202/525795230-ec1bd2de-cf9d-48d7-a17d-d8a4e2ca893c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..X" alt="StudySim Logo" width="60" height="60" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
-    <h1 style="margin: 0; font-size: 3rem; font-weight: 900; background: linear-gradient(to right, #2563EB, #9333EA, #DB2777); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">StudySim AI</h1>
+  <div style="display: flex; justify-content: center; align-items: center; gap: 12px; padding-bottom: 10px;">
+  
+  <h1 style="margin: 0; font-size: 3rem; font-weight: 900; line-height: 1.2; padding-bottom: 5px; background: linear-gradient(to right, #2563EB, #9333EA, #DB2777); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">StudySim AI</h1>
   </div>
   
   <p style="font-size: 1.2rem; color: #71717A; max-width: 600px; margin: 10px auto;">
@@ -62,17 +62,17 @@ Explore the modern, dark-mode optimized interface of StudySim AI.
 
 | **Immersive Landing Experience** | **The Study Architect** |
 |:---:|:---:|
-| ![Landing Page](https://private-user-images.githubusercontent.com/247419202/525795230-ec1bd2de-cf9d-48d7-a17d-d8a4e2ca893c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..X) | ![Architect Interface](https://private-user-images.githubusercontent.com/247419202/525795229-689c64b0-99ce-43f8-8076-caa0c84225bb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..X) |
+| ![Landing Page](https://github.com/user-attachments/assets/da668189-9a4e-4bc7-a3b8-8eab5bf8393f) | ![Architect Interface](https://github.com/user-attachments/assets/689c64b0-99ce-43f8-8076-caa0c84225bb) |
 
 | **Real-Time Simulation** | **Interactive Quizzes** |
 |:---:|:---:|
-| ![Simulation Engine](http://private-user-images.githubusercontent.com/247419202/525795227-d54e9081-d839-423a-9134-08cf47dfc0b7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..X) | ![Quiz Interface](https://private-user-images.githubusercontent.com/247419202/525795226-da668189-9a4e-4bc7-a3b8-8eab5bf8393f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..X) |
+| ![Simulation Engine](https://github.com/user-attachments/assets/ec1bd2de-cf9d-48d7-a17d-d8a4e2ca893c) | ![Quiz Interface](https://github.com/user-attachments/assets/d54e9081-d839-423a-9134-08cf47dfc0b7) |
 
 <div align="center">
   <br />
   <b>Full-Screen Deep Dive & Responsive Design</b>
   <br /><br />
-  <img src="https://private-user-images.githubusercontent.com/247419202/525795231-8baaeafe-fea2-4af3-9e47-077408b5c08f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..X" alt="Responsive Design" width="80%" style="border-radius: 16px; border: 1px solid #333;" />
+  <img src="https://github.com/user-attachments/assets/8baaeafe-fea2-4af3-9e47-077408b5c08f" alt="Responsive Design" width="80%" style="border-radius: 16px; border: 1px solid #333;" />
 </div>
 
 ---
@@ -121,6 +121,7 @@ Follow these steps to run the architect locally.
     ```
 
 ---
+
 <div align="center">
   <p style="text-transform: uppercase; letter-spacing: 0.2em; font-size: 0.8rem; color: #71717A;">Visualized by</p>
   <h3 style="background: linear-gradient(to right, #06b6d4, #3b82f6, #9333ea); -webkit-background-clip: text; color: transparent; font-size: 1.5rem; margin-top: -10px; padding-bottom: 10px; line-height: 1.5;">Bhagya Asati</h3>
